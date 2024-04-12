@@ -1,12 +1,11 @@
 fun main() {
+    val part1 = "Kotlin "
+    val part2 = "is a cross-platform"
+    val part3 = ", statically typed, "
+    val part4 = "general-purpose programming language with type coercion."
 
-
-    val booleanLiteral = true
-    val floatingPointLiteral = 2.0
-    val integerLiteral = 100
-    val characterLiteral = 'A'
-    val stringLiteral = "Hello, Kotlin!"
-
-
-   println ("Boolean: $booleanLiteral, Float: $floatingPointLiteral, Int: $integerLiteral, Char: $characterLiteral, String: $stringLiteral")
+    print(part1)
+    print(part2)
+    print(part3)
+    print(part4)
 }
