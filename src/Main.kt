@@ -1,11 +1,16 @@
-fun main() {
-    val part1 = "Kotlin "
-    val part2 = "is a cross-platform"
-    val part3 = ", statically typed, "
-    val part4 = "general-purpose programming language with type coercion."
 
-    print(part1)
-    print(part2)
-    print(part3)
-    print(part4)
+fun main() {
+    val largeString = """
+    This is the house that Jack built.
+      
+    This is the malt that lay in the house that Jack built.
+       
+    This is the rat that ate the malt
+    That lay in the house that Jack built.
+       
+    This is the cat
+    That killed the rat that ate the malt
+    That lay in the house that Jack built.
+""".trimIndent() // removes the first and the last lines and trims indents
+    print(largeString)
 }
